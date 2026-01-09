@@ -69,3 +69,6 @@ Automatic fallback ensures uninterrupted responses
 
 Context management
 Limited memory window is used to control prompt size and cost
+
+<img width="733" height="623" alt="image" src="https://github.com/user-attachments/assets/f2f9ffcc-6382-45fd-a040-177df2c17ca4" />
+
