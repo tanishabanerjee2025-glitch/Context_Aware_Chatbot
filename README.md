@@ -26,6 +26,12 @@ Tech Stack
 - Swagger UI (FastAPI auto-generated)
 - Uvicorn
 
+Frontend
+A simple HTML/JavaScript frontend is included to demonstrate real-time
+interaction with the chatbot API.
+The frontend communicates directly with the `/chat` endpoint used by Swagger UI.
+
+
 How to Run Locally
 1. Clone the repository
 (git clone <your-github-repo-url>

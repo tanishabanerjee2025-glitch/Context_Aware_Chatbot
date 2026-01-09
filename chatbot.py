@@ -4,8 +4,18 @@ import os
 import requests
 import random
 from google import genai
+from fastapi.middleware.cors import CORSMiddleware
+
 
 app = FastAPI(title="Context-Aware Chatbot")
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # allow all origins (safe for local dev)
+    allow_credentials=True,
+    allow_methods=["*"],  # allow POST, OPTIONS, etc.
+    allow_headers=["*"],
+)
+
 
 # ---------------------------
 # Config
